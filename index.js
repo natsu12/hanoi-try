@@ -16,6 +16,10 @@ $(function () {
   function onclickEvent() {
     if (first_selected) {
 
+      if ($(this).find('.item').length == 0) {
+        return;
+      }
+
       // 新一次点击
       $($(this).find('.item')[0]).addClass('selected');
       this.selected = true;
