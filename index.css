@@ -1,0 +1,49 @@
+.container {
+  width: 660px;
+  padding-top: 100px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.pillar {
+  width: 20px;
+  height: 600px;
+  background: gray;
+  margin-right: 300px;
+  float: left;
+  position: relative;
+  cursor: pointer;
+}
+
+.right {
+  margin-right: 0;
+}
+
+.wrap {
+  position: absolute;
+  bottom: 0;
+  left: -140px;
+}
+
+.item {
+  width: 300px;
+  height: 100px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.selected {
+  border: 5px solid #D75447;
+}
+
+.green {
+  background: #7ED72A;
+}
+
+.pink {
+  background: #D75F97;
+}
+
+.brown {
+  background: #602E13;
+}
