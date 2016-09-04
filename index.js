@@ -29,8 +29,10 @@ $(function () {
       // 第二次点击
       if (!this.selected) {
 
-        // 新的柱子
-        $(this).find('.wrap').prepend(selected_item);
+        // 新的柱子，方块数少于6才允许移动
+        if ($(this).find('.item').length < 6) {
+          $(this).find('.wrap').prepend(selected_item);
+        }
 
       }
 
